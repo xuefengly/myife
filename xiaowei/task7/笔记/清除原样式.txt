@@ -1,0 +1,7 @@
+清除标签原样式：
+
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	-ms-appearance:none;

@@ -1,0 +1,123 @@
+/*公共样式*/
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	max-width: 100%;
+}
+html{
+	width:100%;
+}
+.clear{
+	zoom:1;
+}
+.clear:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+.main{
+	padding:0 2%;
+}
+/*头部*/
+h2{
+	background: #02c6d8;
+	color: #fff;
+	text-align: center;
+}
+h2,ul{
+	width:100%;
+}
+ul li{
+	float: left;
+	list-style:none;
+	text-align: center;
+}
+.nav li{
+	width:20%;
+}
+.nav .active{
+	border-bottom: 2px solid #02c6d8;
+}
+.one{
+	border-bottom: 1px solid #ccc;
+}
+.one li{
+	width: 14%;
+    padding: 3%;
+}
+.one li p{
+	border-radius: 50%;
+    background: #02c6d8;
+    padding: 10%;
+    margin: 10%;
+}
+.one li p img{
+	width:50%;
+}
+.two{
+	padding: 2%;
+}
+.two li{
+	width:33%;
+}
+.two li img{
+	height: 133px;
+}
+.two,.module{
+	border-bottom: 16px solid #ccc;
+}
+.module h3{
+	border-bottom: 1px solid #ccc;
+	padding: 4px 0;
+	margin-bottom: 10px;
+}
+.module table td{
+	width:33%;
+	text-align:center;
+	background: #ccc;
+}
+.title{
+	padding: 6px 0;
+}
+.title img{
+	width:40%;
+	float: left;
+	margin-bottom: 10px;
+}
+.title div{
+	width:55%;
+	float: right;
+	position: relative;
+	height: 102px;
+}
+.title div p{
+	color:#ccc;
+	position: absolute;
+	bottom: 0;
+}
+.title2{
+	border-top: 4px solid #ccc;
+}
+.title2 h3{
+	padding: 5px 0;
+}
+.title2 div{
+	/*padding: 0 5%;*/
+}
+.title2 div img{
+	float: left;
+	width:30%;
+	margin-right: 3.3%;
+}
+.title2 p{
+	color:#ccc;
+	padding: 3% 0;
+}
+.foot{
+	width:100%;
+	background-color:#ccc;
+	height: 40px;
+}
+

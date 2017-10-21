@@ -1,0 +1,6 @@
+/*首字母大写*/
+.a {text-transform:capitalize;}
+/*全都是大写*/
+.b {text-transform:uppercase;}
+/*全都是小写*/
+.c {text-transform:lowercase;}

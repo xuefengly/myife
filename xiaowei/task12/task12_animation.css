@@ -1,0 +1,112 @@
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+.main{
+	margin:0 auto;
+	width:400px;
+}
+table{
+	margin:0 auto;
+}
+table tr:first-of-type{
+	background: black;
+	color:#fff;
+}
+table tr:nth-child(2n+3){
+	background: #ccc;
+}
+table tr:nth-child(2),tr:nth-child(3),tr:nth-child(4){
+	color:red;
+}
+.one input{
+	display: block;
+	width:100px;
+	margin:20px auto;
+
+}
+.one input:last-of-type{
+	transition:width 4s;
+	-moz-transition:width 4s;
+	-webkit-transition:width 4s;
+	-ms-transition:width 4s;
+	-o-transition:width 4s;
+}
+.one input:last-of-type:focus{
+	width:250px;
+}
+.color{
+	/*background: #0cce1c;*/
+	background: green;
+	width:400px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+.color ul{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	clear: both;
+	height: 25px;
+	line-height: 25px;
+	z-index: 999;
+}
+.color ul li{
+	width:25px;
+	height: 25px;
+	float: left;
+	margin-left: 2px;
+	background: #e7e7e4;
+	opacity: 0.5;
+	text-align: center;
+}
+.color ul li a{
+	display: inline-block;
+	width:25px;
+	height: 25px;
+	text-decoration: none;
+}
+#con1,#con2,#con3{
+	position: absolute;
+	left: -100%;
+	top:0;
+	width:100%;
+	height: 100%;
+	/*overflow: hidden;*/
+	animation:  0.5s slide_out linear;
+}
+#con1{
+	background: green;
+}
+#con2{
+	background: red;
+}
+#con3{
+	background: blue;
+}
+.color :target{
+	left: 0%;
+	animation:  4s slide_in linear;
+	/*overflow: auto;*/
+	z-index: 2;
+}
+@keyframes slide_in{
+	0%{
+		left: 100%:;
+	}
+	100%{
+		left: 0%;
+	}
+}
+@keyframes slide_out{
+	0%{
+		left: 0%;
+	}
+	100%{
+		left: -100%;
+	}
+}

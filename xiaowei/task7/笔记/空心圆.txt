@@ -1,0 +1,8 @@
+制作一个空心圆：
+如：
+div{
+	width:20px;
+	height:20px;
+	border:2px solid #ccc;
+	border-radius:20px;
+}
