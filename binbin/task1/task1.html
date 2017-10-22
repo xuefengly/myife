@@ -32,13 +32,13 @@
 //       aqiDisplay.innerHTML = aqiInput.value;
 //   };
 // })();
-// var button = document.getElementById('button');
+var button = document.getElementById('button');//获得button
 // console.log(button);
-// button.onclick = function(){
-//     var aqiInput = document.getElementById('aqi-input');
-//     var aqiDisplay = document.getElementById('aqi-display');
-//     aqiDisplay.innerHTML = aqiInput.value;
-// }
+button.onclick = function(){//点击事件
+    var aqiInput = document.getElementById('aqi-input');
+    var aqiDisplay = document.getElementById('aqi-display');
+    aqiDisplay.innerHTML = aqiInput.value;//把input里的值添加到span中
+}
 </script>
 </body>
 </html>
