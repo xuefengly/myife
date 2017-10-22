@@ -1,0 +1,26 @@
+task1:
+input里的值用value,不能用innerHTML
+task2：
+尽量别在循环里创建变量
+task3:
+分割字符串用split()且不可直接用标签，要用内容，比如text.innerHTML;
+children属性是指向里面的标签
+若要取得里面标签内容必须要用数组，不可直接用innerHTML获取；
+firstChild指向节点
+冒泡排序：
+function sortAqiData(data) {
+  //冒泡排序
+    var temp;
+    for(var i=0;i<data.length;i++){
+      //开始两个互换，把数字大的换到后面，一层循环只能把最大的换到最后面
+      for(var j=0;j<data.length-i-1;j++){
+        //由于最后是最大已确定，所以j<data.length-i-1;
+        if(data[j][1]>data[j+1][1]){
+          temp = data[j];//把数字更大的数据存在temp中
+          data[j] = data[j+1];//把数字更小的换到前面
+          data[j+1] = temp;//把之前存的数字更大的数据换到后面
+        }
+      }
+    }
+    return data;
+}
