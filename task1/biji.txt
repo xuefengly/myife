@@ -1,0 +1,1 @@
+input里的值用value,不能用innerHTML
