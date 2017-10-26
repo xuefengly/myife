@@ -1,0 +1,5 @@
+1.每个节点都有一个childNodes属性，其中保存着一个NodeList对象(类数组对象，用于保存一组有序的节点，可以通过位置来访问这些节点），有length属性，但不是Array的实例。
+2.使用insertBefore()时，直接把创建的节点做第一个参数；
+insertBefore()含两个参数，第一个为插入的节点，第二个为参照点，若为null则插入到最后。（详见高程P252);也可以用appendChild()添加到最后;
+3.当要对一系列的元素添加事件时，可以选用事件代理(详见高程P402).
+4.对于childNodes和children都可以获取节点，但是childNodes会包含一些文本节点(如空格),而children只获取元素节点。
