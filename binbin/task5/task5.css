@@ -1,0 +1,14 @@
+input[type=text]{
+  width:200px;
+}
+#section{
+  display: flex;
+  align-items:flex-end;
+}
+#section li{
+  width:30px;
+  list-style: none;
+  color: #888;
+  background: red;
+  margin-left: 10px;
+}

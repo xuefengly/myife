@@ -1,0 +1,1 @@
+1.底部排序：使用flex布局，display:flex;align-items:flex-end;添加到父盒子里即可。
