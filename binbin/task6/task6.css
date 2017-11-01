@@ -1,0 +1,17 @@
+.text{
+  width:200px;
+  height:100px;
+}
+#section{
+  display: flex;
+  align-items:flex-end;
+}
+#section li{
+  /*width:30px;*/
+  padding: 4px;
+  list-style: none;
+  color: #fff;
+  background: red;
+  margin-left: 10px;
+  text-align: center;
+}
